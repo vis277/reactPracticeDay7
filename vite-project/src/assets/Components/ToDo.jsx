@@ -23,6 +23,7 @@ const _handleDelete=(param)=>{
         }
     })
     console.log("ln24",finalTaskList)
+    settaskList(finalTaskList)
 }
     return(
         <>
