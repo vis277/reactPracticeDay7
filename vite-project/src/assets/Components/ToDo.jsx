@@ -16,7 +16,7 @@ settask('');
 }
 
 const _handleDelete=(param)=>{
-    console.log("ln18",param)
+   
     let finalTaskList= taskList.filter((item)=>{
         if(item.id!=param){
             return item
